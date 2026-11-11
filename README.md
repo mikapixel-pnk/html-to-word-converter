@@ -1,5 +1,7 @@
 # HTML to Word Converter
 
+[![Validate HTML-to-Word demo](https://github.com/mikapixel-pnk/html-to-word-converter/actions/workflows/validate.yml/badge.svg)](https://github.com/mikapixel-pnk/html-to-word-converter/actions/workflows/validate.yml)
+
 A practical **HTML → Microsoft Word (DOCX)** conversion demonstration focused on maintaining document structure—not just copying text.
 
 **Created by Novel Hari Keswono** | IT Support · PHP/Laravel Developer · Automation
@@ -37,6 +39,14 @@ python converter.py examples/legal-agreement.html output.docx
 Open `output.docx` in **desktop Microsoft Word**. To generate or refresh the Table of Contents, right-click the TOC and select **Update Field → Update entire table**. Alternatively, press **Ctrl+A**, then **F9**.
 
 **Quality checks:** add/remove a heading or list item, verify Word renumbers clauses automatically, refresh the TOC, inspect page breaks, and compare the output with the HTML source.
+
+## Run structural tests
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The automated checks verify editable tables, Word heading styles, real multilevel numbering, and the TOC field.
 
 ## Working with real client documents
 
