@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Illustrative Professional Services Agreement — HTML Source</title>
+<style>
+  @page { size: letter; margin: 1in; }
+  body { max-width: 8.5in; margin: 28px auto; padding: 0 30px; color:#111; background:#fff; font: 15px/1.55 "Times New Roman", Times, serif; }
+  .kicker { text-align:center; letter-spacing: .07em; font: bold 11px Georgia,serif; }
+  h1 { text-align:center; font-size:21px; letter-spacing:.02em; margin:20px 0 8px; }
+  .subtitle, .disclaimer { text-align:center; font-size:13px; }
+  .disclaimer { border-top:1px solid #444; border-bottom:1px solid #444; padding:8px 0; margin:14px 0; }
+  h2 { font-size:17px; margin:25px 0 8px; }
+  h3 { font-size:15px; margin:19px 0 6px; }
+  p { margin:6px 0 11px; }
+  main { counter-reset:article; }
+  main h2 { counter-increment:article; counter-reset:subsection; }
+  main h2::before { content:counter(article) '. '; }
+  main h3 { counter-increment:subsection; }
+  main h3::before { content:counter(article) '.' counter(subsection) ' '; }
+  .toc-note { margin:15px 0 28px; padding:8px; border:1px solid #666; text-align:center; font-size:13px; }
+  ol.legal { list-style-type:lower-alpha; margin: 8px 0 13px; padding-left:44px; }
+  ol.legal > li { padding-left:4px; margin:6px 0; }
+  ol.legal > li::marker { content:'(' counter(list-item,lower-alpha) ') '; }
+  ol.roman { list-style-type:lower-roman; margin:7px 0; padding-left:36px; }
+  ol.roman > li::marker { content:'(' counter(list-item,lower-roman) ') '; }
+  table { width:100%; border-collapse:collapse; margin:10px 0 16px; font-size:14px; }
+  th,td { border:1px solid #333; text-align:left; padding:7px 9px; vertical-align:top; }
+  th { font-weight:bold; background:#f4f4f4; }
+  .small { font-size:12px; }
+  .signature { margin-top:22px; }
+</style>
+</head>
+<body>
+<header>
+<p class="kicker">DOCUMENT CONVERSION PORTFOLIO SAMPLE</p>
+<h1>PROFESSIONAL SERVICES AGREEMENT</h1>
+<p class="subtitle">An illustrative U.S.-style agreement for testing structured HTML-to-Word conversion</p>
+<p class="disclaimer"><strong>FICTIONAL DEMONSTRATION — NOT FOR SIGNATURE OR LEGAL RELIANCE</strong><br>
+All entities and provisions below are invented for formatting tests. This is not legal advice or a law-firm template.</p>
+<p>This illustrative Professional Services Agreement (the <strong>“Agreement”</strong>) is dated November 11, 2026, and describes a hypothetical engagement between <strong>Northlake Advisory LLC</strong> (the <strong>“Client”</strong>) and <strong>Cedarbridge Systems Inc.</strong> (the <strong>“Provider”</strong>).</p>
+</header>
+<nav class="toc-note" data-generate="word-toc">TABLE OF CONTENTS — generated from Word heading styles during conversion</nav>
+<main>
+<section>
+<h2>Engagement and Scope</h2>
+<h3>Services</h3>
+<p>The Provider will perform the technical documentation services described in a written statement of work approved by both parties (each, a <strong>“Statement of Work”</strong>). A Statement of Work may describe milestones, deliverables, review dates, and administrative contacts.</p>
+<ol class="legal">
+<li><strong>Included work.</strong> Services include the activities expressly identified in the applicable Statement of Work.</li>
+<li><strong>Excluded work.</strong> Unless otherwise agreed in writing, the Provider is not responsible for:
+<ol class="roman">
+<li>providing legal opinions or legal advice;</li>
+<li>changing substantive contractual provisions; or</li>
+<li>making production-system changes without written authorization.</li>
+</ol>
+</li>
+<li><strong>Order of documents.</strong> If this sample and a Statement of Work conflict, the Statement of Work controls solely for the identified services.</li>
+</ol>
+<h3>Document Integrity</h3>
+<p>The Provider will use reasonable care to preserve paragraph hierarchy, defined terms, tables, and source meaning when converting content to Microsoft Word. Material ambiguities will be flagged for Client review rather than silently rewritten.</p>
+</section>
+<section>
+<h2>Delivery and Acceptance</h2>
+<h3>Deliverable Review</h3>
+<p>The Provider will submit an editable Microsoft Word file and, where requested, a comparison copy. The Client will review each deliverable against the agreed formatting and structural requirements.</p>
+<ol class="legal">
+<li><strong>Editable content.</strong> Headings, paragraphs, and tables must remain natively editable in Microsoft Word.</li>
+<li><strong>Automatic structure.</strong> Multilevel numbering must use Word numbering definitions, and the table of contents must use an updateable Word field.</li>
+<li><strong>Acceptance checks.</strong> Review includes:
+<ol class="roman">
+<li>confirming heading levels and paragraph numbering;</li>
+<li>refreshing the table of contents after a heading change; and</li>
+<li>checking the printed layout for page breaks and overflow.</li>
+</ol>
+</li>
+</ol>
+<h3>Corrections</h3>
+<p>If a conversion error is identified during the agreed review period, the Provider will correct the formatting or structure and resubmit the relevant deliverable. This provision does not require changes to the legal substance of source materials.</p>
+</section>
+<section>
+<h2>Confidentiality and Information Handling</h2>
+<h3>Confidential Materials</h3>
+<p>Each party will use reasonable safeguards for nonpublic business information supplied for the engagement. This demonstration contains no actual confidential client material.</p>
+<h3>Access and Retention</h3>
+<ol class="legal">
+<li>Source files should be transferred using a mutually approved channel.</li>
+<li>Working copies should be accessible only to persons assigned to the conversion project.</li>
+<li>At project completion, retained copies will be handled according to the parties' documented instructions.</li>
+</ol>
+</section>
+<section>
+<h2>Fees and Change Control</h2>
+<h3>Fees</h3>
+<p>Fees, if any, will be established in the applicable Statement of Work. The table below is an illustrative schedule used only to demonstrate preservation of tabular HTML content.</p>
+<table>
+<thead><tr><th>Sample milestone</th><th>Deliverable</th><th>Acceptance criterion</th></tr></thead>
+<tbody>
+<tr><td>Initial conversion</td><td>Editable DOCX draft</td><td>Content hierarchy retained</td></tr>
+<tr><td>Quality review</td><td>Corrected DOCX</td><td>Numbering and TOC verified</td></tr>
+<tr><td>Final handover</td><td>Approved DOCX and source</td><td>Client confirms receipt</td></tr>
+</tbody>
+</table>
+<h3>Change Requests</h3>
+<p>A change affecting scope or timeline should be documented before implementation. The written request should identify the proposed modification, the expected delivery effect, and any revised fee.</p>
+</section>
+<section>
+<h2>Term and General Provisions</h2>
+<h3>Term</h3>
+<p>This illustrative Agreement begins on the date stated above and continues for the period stated in a Statement of Work, unless the parties agree otherwise in writing.</p>
+<h3>Notices and Interpretation</h3>
+<ol class="legal">
+<li><strong>Notices.</strong> Routine project notices may be sent to the contacts designated in the Statement of Work.</li>
+<li><strong>Amendments.</strong> Changes must be documented in writing and approved by authorized representatives.</li>
+<li><strong>Interpretation.</strong> Section headings are for organization and do not override the text of a provision.</li>
+</ol>
+<p class="small"><em>End of fictional sample. No signature is requested or intended.</em></p>
+</section>
+</main>
+</body>
+</html>
